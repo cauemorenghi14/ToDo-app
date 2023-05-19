@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c5c5c5;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 6em;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 2em;
+}
+
+.redesSociais a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    transition: .2s;
+}
+
+.redesSociais a:hover {
+    transform: translateY(-1px);
+}
+
+.redesSociais a:nth-child(2):hover {
+    color: rgb(34, 34, 211);
+}
+
+.redesSociais a:nth-child(3):hover {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formulario {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-titulo h1 {
+    color: #191970;
+    margin-bottom: .5em;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    gap: .5em;
+}
+
+.form-item label {
+    color: #191970;
+    font-size: 1.2rem;
+}
+
+.form-item input {
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    outline: none;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5em;
+}
+
+.form-login button {
+    background-color: #28289a;
+    border: none;
+    padding: 0.7em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.form-login button:hover {
+    opacity: 0.9;
+}
+
+.form-login button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-login span {
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.form-login span a {
+    font-size: 1rem;
+    color: #28289a;
+}
+
+.bi2 {
+    color: #191970;
+}
+
+footer {
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {
+    color: #fff;
+    opacity: 0.3;
+}
